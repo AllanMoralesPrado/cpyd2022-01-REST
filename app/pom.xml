@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>cl.cpyd.grupob</groupId>
 	<artifactId>attendance</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>attendance</name>
 	<description>School Attendance project for Spring Boot</description>
@@ -51,6 +51,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+                <finalName>attendance</finalName>
 	</build>
-
 </project>
